@@ -1,0 +1,28 @@
+.SelectedCard {
+  padding: 4rem 2rem 2rem;
+  min-width: 40rem;
+  min-height: 30rem;
+
+  &__title {
+    font-size: 2rem;
+  }
+
+  &__iconEdit {
+    width: 2rem;
+    cursor: pointer;
+  }
+
+  &__description {
+    margin-top: 3rem;
+    font-size: 1.6rem;
+  }
+
+  &__editDesc {
+    margin-top: 3rem;
+    font-size: 16rem;
+  }
+
+  &__delete {
+    margin-top: 5rem;
+  }
+}

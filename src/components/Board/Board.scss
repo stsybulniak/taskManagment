@@ -1,0 +1,15 @@
+.Board {
+  padding: 2rem;
+  border-radius: .6rem;
+  height: 100%;
+
+  &__list {
+    display: flex;
+    height: 100%;
+    overflow-y: auto;
+
+    & > * {
+      margin-right: 1rem;
+    }
+  }
+}

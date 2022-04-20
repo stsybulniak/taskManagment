@@ -1,0 +1,15 @@
+.AddSign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  min-width: 10rem;
+
+  &__icon {
+    width: 2rem;
+  }
+
+  &__text {
+    margin-left: .5rem;
+  }
+}

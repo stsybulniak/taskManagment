@@ -1,0 +1,45 @@
+.AddField {
+  display: flex;
+  flex-direction: column;
+
+  &__fullWidth {
+    width: 100%;
+  }
+
+  &__icons {
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  &__iconCheck {
+    width: 2rem;
+    cursor: pointer;
+
+    &:hover {
+      fill: var(--color-allowed);
+    }
+  }
+
+  &__input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__iconCross {
+    width: 1.6rem;
+    margin-right: 1rem;
+    cursor: pointer;
+
+    &:hover {
+      fill: var(--color-danger);
+    }
+  }
+
+  &__error {
+    color: var(--color-danger);
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+}
